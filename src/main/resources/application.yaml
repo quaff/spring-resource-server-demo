@@ -1,0 +1,11 @@
+logging:
+  level:
+    web: debug
+    sql: debug
+    org.springframework.security: trace
+
+spring.security.oauth2.resourceserver:
+  opaquetoken:
+    introspection-uri: http://localhost:9000/oauth2/introspect
+    client-id: client-id
+    client-secret: client-secret
